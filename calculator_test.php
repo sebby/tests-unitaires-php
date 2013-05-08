@@ -39,17 +39,8 @@ class CalculatorTest extends PHPUnit_Framework_TestCase
     $sum = $this->calcul->substract(20,8);
     $this->assertEquals(12, $sum);
   }
-
-
   public function provider()
   {
-  /*  return array(
-      array(1,1,2),
-      array(new stdClass(), 0, NULL),
-      array('string', 0, NULL),
-      array(0, new stdClass(), NULL)
-      );
-      */
     return array(
 
         array(0, 0, 0),
